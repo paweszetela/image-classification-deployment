@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classification App</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { width: 300px; margin: auto; }
+        .result { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Image Classifier</h2>
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <button type="submit">Predict</button>
+        </form>
+        <div class="result">
+            
+        </div>
+    </div>
+
+    <script>
+
+    </script>
+</body>
+</html>

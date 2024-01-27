@@ -1,0 +1,17 @@
+name: image-classification-deployment
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.10  
+  - flask      
+  - gunicorn 
+  - pytorch
+  - torchvision
+  - jupyter
+  - pip
+  - pip:
+    - Pillow 
+    - requests
+    - pytest
