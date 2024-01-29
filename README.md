@@ -1,3 +1,12 @@
+---
+title: Image classification 
+emoji: 🦆
+colorFrom: purple
+colorTo: blue
+sdk: docker
+app_port: 5000
+---
+
 # image-classification-deployment
 
 Build an image and run Docker container.
