@@ -5,6 +5,7 @@
 /.*
 !.gitignore
 !Dockerfile
+!.github
 *.ipynb
 __pycache__
 
