@@ -23,4 +23,4 @@ COPY --chown=user models models
 
 EXPOSE 5000
 
-CMD ["python", "run.py"]
+CMD ["python", "ui.py"]
